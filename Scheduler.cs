@@ -86,8 +86,8 @@ class Scheduler {
     }
 
     //TODO: Pass in correct doctor
-    doctorSchedule[Doctor.doc1].Add(new AppointmentInfo(Doctor.doc1, request.personId, possibleDateTime, request.isNew));
-    personSchedule[request.personId].Add(new AppointmentInfo(Doctor.doc1, request.personId, possibleDateTime, request.isNew));
+    //doctorSchedule[Doctor.doc1].Add(new AppointmentInfo(Doctor.doc1, request.personId, possibleDateTime, request.isNew));
+    //personSchedule[request.personId].Add(new AppointmentInfo(Doctor.doc1, request.personId, possibleDateTime, request.isNew));
     
     AppointmentInfoRequest appt = new AppointmentInfoRequest(request, Doctor.doc1, possibleDateTime);
     apiService.Schedule(appt);

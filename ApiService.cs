@@ -6,7 +6,8 @@ public class ApiService: iApiService {
   string apiBaseURL = "http://scheduling-interview-2021-265534043.us-west-2.elb.amazonaws.com/";
   string token = "?token=d0ad84d9-f051-46a7-a8da-35d131dc9bf4";
 
-  public ApiService() {
+  public ApiService(string? token) {
+    this.token = "?token=" + token; 
     client.BaseAddress = new Uri(apiBaseURL);
     client.DefaultRequestHeaders.Accept.Clear();
     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
