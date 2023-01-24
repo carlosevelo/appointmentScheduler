@@ -72,19 +72,23 @@ class Scheduler {
         tempDate = possibleDateTime;
       }
       else {
+        //TODO: Doctor/Time filtering
+        //Appointments can be scheduled as early as 8 am UTC and as late as 4 pm UTC.
+        //For a given doctor, you may only have one appointment scheduled per hour 
+
         break;
       }
     }
-
-    //TIME FILTERING
-    //Appointments may only be scheduled on the hour.
-    //Appointments can be scheduled as early as 8 am UTC and as late as 4 pm UTC.
-    //For a given doctor, you may only have one appointment scheduled per hour 
+  
     //Appointments for new patients may only be scheduled for 3 pm and 4 pm.
     if (request.isNew) {
       possibleDateTime.AddHours(7);
     }
 
+    //TODO: Pass in correct doctor
+    doctorSchedule[Doctor.doc1].Add(new AppointmentInfo(Doctor.doc1, request.personId, possibleDateTime, request.isNew));
+    personSchedule[request.personId].Add(new AppointmentInfo(Doctor.doc1, request.personId, possibleDateTime, request.isNew));
+    
     AppointmentInfoRequest appt = new AppointmentInfoRequest(request, Doctor.doc1, possibleDateTime);
     apiService.Schedule(appt);
   }
