@@ -1,0 +1,15 @@
+/Users/carlos/Desktop/appointmentScheduler/bin/Debug/net6.0/appointmentScheduler
+/Users/carlos/Desktop/appointmentScheduler/bin/Debug/net6.0/appointmentScheduler.deps.json
+/Users/carlos/Desktop/appointmentScheduler/bin/Debug/net6.0/appointmentScheduler.runtimeconfig.json
+/Users/carlos/Desktop/appointmentScheduler/bin/Debug/net6.0/appointmentScheduler.dll
+/Users/carlos/Desktop/appointmentScheduler/bin/Debug/net6.0/ref/appointmentScheduler.dll
+/Users/carlos/Desktop/appointmentScheduler/bin/Debug/net6.0/appointmentScheduler.pdb
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.csproj.AssemblyReference.cache
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.AssemblyInfoInputs.cache
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.AssemblyInfo.cs
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.csproj.CoreCompileInputs.cache
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.dll
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/ref/appointmentScheduler.dll
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.pdb
+/Users/carlos/Desktop/appointmentScheduler/obj/Debug/net6.0/appointmentScheduler.genruntimeconfig.cache
